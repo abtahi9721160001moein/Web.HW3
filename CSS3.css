@@ -1,0 +1,75 @@
+body {
+    background-color: lightcoral;
+    font-family: "Kamran";
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    grid-template-areas: ". gi1 ."
+        ".  gi2 ."
+        " . gi3   .";
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+
+}
+
+.grid .item1 {
+    grid-area: gi1;
+    text-align: center;
+}
+
+.grid .item2 {
+    grid-area: gi2;
+    text-align: right;
+    justify-self: right;
+
+}
+
+.grid .item3 {
+    grid-area: gi3;
+    text-align: left;
+    justify-self: left;
+}
+
+.photos {
+    display: grid;
+    grid-template-areas: ". pitem1 pitem1 . . ."
+        " . . .pitem2 pitem2 ."
+        " . . pitem3 . . ."
+        ". . . pitem4 pitem4 ."
+    ;
+}
+
+.photos .item1 {
+    grid-area: pitem1;
+    border-style: groove;
+    padding: 20px;
+    border-width: 5px;
+}
+
+.photos .item2 {
+    grid-area: pitem2;
+    border-style: groove;
+    padding: 20px;
+    border-width: 5px;
+}
+
+.photos .item3 {
+    grid-area: pitem3;
+    border-style: groove;
+    padding: 20px;
+    border-width: 5px;
+}
+
+.photos .item4 {
+    grid-area: pitem4;
+    border-style: groove;
+    padding: 20px;
+    border-width: 5px;
+}
