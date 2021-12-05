@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "Nazanin.ttf";
-    src: url(Nazanin.ttf);
+    font-family: "Nazanin";
+    src: url(Nazanin.ttf) format("ttf");
 }
 
 body {
