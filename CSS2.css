@@ -1,6 +1,12 @@
+@font-face {
+    font-family: "Nazanin.ttf";
+    src: url(Nazanin.ttf);
+}
+
 body {
     background-color: lightblue;
     font-family: "Nazanin";
+
 }
 
 .grid-container {
