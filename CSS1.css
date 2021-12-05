@@ -1,3 +1,10 @@
+@font-face {
+    font-family: "Nazanin.ttf";
+    src: url(Nazanin.ttf);
+    font-family: "Kamran.ttf";
+    src: url(Kamran.ttf);
+}
+
 body {
     background-color: lightblue;
     font-family: "Nazanin";
