@@ -1,7 +1,6 @@
 @font-face {
     font-family: "Nazanin";
-    src: url(Kamran.ttf) format("ttf");
-    src: url(Nazanin.ttf);
+    src: url(Nazanin.ttf)format("ttf");
     font-family: "Kamran";
     src: url(Kamran.ttf) format("ttf");
 }
